@@ -27,4 +27,10 @@ class Alert extends Component
     {
         return view('components.alert');
     }
+
+    public function prueba(){
+        if($this->color == 'red'){
+            return "Peligro";
+        }
+    }
 }

@@ -33,6 +33,15 @@
                     Usted no tiene permisos para acceder a esta página.
                 </x-slot>
             </x-alert>
+
+            <x-alert color="green" class="mb-4">
+                <x-slot name="titulo">
+                    Error
+                </x-slot>
+                <x-slot name="descripcion">
+                    Usted no tiene permisos para acceder a esta página.
+                </x-slot>
+            </x-alert>
             
             <x-alert2 color="blue" class="mt-5">
                 <x-slot name="titulo">
