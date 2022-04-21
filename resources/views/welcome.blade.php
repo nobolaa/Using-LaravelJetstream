@@ -34,14 +34,14 @@
                 </x-slot>
             </x-alert>
             
-            <x-alert color="orange" >
+            <x-alert2 color="blue" class="mt-5">
                 <x-slot name="titulo">
-                    Error
+                    Saludos
                 </x-slot>
                 <x-slot name="descripcion">
-                    Usted no tiene permisos para acceder a esta página.
+                    Soy una alerta de un componente anonimo.
                 </x-slot>
-            </x-alert>
+            </x-alert2>
         </div>    
     </body>
 </html>
