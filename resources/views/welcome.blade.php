@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
         <!-- Styles -->
         <style>
@@ -24,7 +25,7 @@
     
     <body>
         <div class="container mx-auto">
-            <x-alert class="mb-4">
+            <x-alert color="red" class="mb-4">
                 <x-slot name="titulo">
                     Error
                 </x-slot>
@@ -33,7 +34,7 @@
                 </x-slot>
             </x-alert>
             
-            <x-alert>
+            <x-alert color="orange" >
                 <x-slot name="titulo">
                     Error
                 </x-slot>
