@@ -12,7 +12,7 @@ class Alert extends Component
      *
      * @return void
      */
-    public function __construct($color)
+    public function __construct($color = 'yellow')
     {
         //
     $this->color = $color;
