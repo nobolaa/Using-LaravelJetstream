@@ -16,7 +16,7 @@ class CheckAge
      */
     public function handle(Request $request, Closure $next)
     {
-        if(isset($request->age) && $request->age>=18){
+        if(auth()->user()->email == "nabilaliasserhaou@gmail.com"){
             return $next($request);
         }
         else{

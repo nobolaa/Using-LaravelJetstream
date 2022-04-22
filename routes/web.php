@@ -24,7 +24,7 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])
 
 Route::get('prueba', function(){
     return "Has accedido correctamente a esta ruta";
-})->middleware('age');
+})->middleware(['auth:sanctum', 'age']);
 
 
 Route::get('no-autorizado', function(){
