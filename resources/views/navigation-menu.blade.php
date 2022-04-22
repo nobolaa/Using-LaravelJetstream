@@ -1,14 +1,9 @@
 @php
  $nav_links=[
     [
-        'name' => 'Dashboard',
-        'route' => route('dashboard'),
-        'active' => request()->routeIs('dashboard')
-    ],
-    [
-        'name' => 'Prueba',
-        'route' => '#',
-        'active' => false
+        'name' => 'Home',
+        'route' => route('home'),
+        'active' => request()->routeIs('home')
     ]
  ]   
 @endphp
